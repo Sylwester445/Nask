@@ -15,7 +15,7 @@ public class CharactersService {
     }
 
     public AllCharactersResponse getCharacters(Integer page) {
-        return swapiWebClient.CreateAllCharactersResponse(page);
+        return swapiWebClient.getAllCharacters(page);
     }
 
     public CharacterResponse getCharacterById(Integer id) {
